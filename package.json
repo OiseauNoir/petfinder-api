@@ -12,6 +12,7 @@
     "dotenv": "^2.0.0",
     "ejs": "~2.4.1",
     "express": "~4.13.4",
+    "lodash": "^4.15.0",
     "mongoose": "^4.5.10",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
