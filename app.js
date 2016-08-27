@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 var _ = require("lodash");
 
 var PET_FINDER_KEY ='389725918c3d5d347613f1b332d2b633';
+var petfinder = require('petfinder')('api_key','api_secret');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
