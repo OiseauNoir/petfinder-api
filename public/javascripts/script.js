@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 function getPets() {
-  var api = 'http://api.petfinder.com/my.method?key=389725918c3d5d347613f1b332d2b633';
+  var api = 'http://api.petfinder.com/key=389725918c3d5d347613f1b332d2b633';
   $.ajax({
     url: api
   }).done(function (data) {
