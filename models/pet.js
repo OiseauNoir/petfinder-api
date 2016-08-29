@@ -1,17 +1,18 @@
 const mongoose = require('mongoose');
 
-var petsSchema = {
+var petSchema = {
   breed: String,
-  kid-friendly: Boolean,
+  kidFriendly: Boolean,
   maintenance: String,
-  noise-level: String,
-  fullgrownsize: String,
-  personality: String
+  noiseLevel: String,
+  fullGrownSize: String,
+  personality: String,
+  imageName: String
 }
 
-const Pets = mongoose.model('Pets', petsSchema);
+const Pet = mongoose.model('Pet', petSchema);
 
 
-module.exports = Pets;
+module.exports = Pet;
 
 // {type:Boolean, default: false}
