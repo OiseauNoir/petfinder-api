@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-var petSchema = {
+var dogSchema = {
   breed: String,
   kidFriendly: Boolean,
   maintenance: String,
