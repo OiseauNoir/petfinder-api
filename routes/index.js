@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Welcome to Connect The Spots' });
+  res.render('index', { title: 'Connect The Spots' });
 });
 
 

@@ -1,7 +1,7 @@
 $(document).ready(function() {
   getPets();
 
-  $('#pets').on('click', function (e) {
+  $('#all-btn').on('click', function (e) {
     e.preventDefault();
     getPets();
   })
@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 function getPets() {
-  var api = 'http://api.petfinder.com/key=389725918c3d5d347613f1b332d2b633';
+  var api = 'http://api.petfinder.com/breed.list?key=389725918c3d5d347613f1b332d2b633';
   $.ajax({
     url: api
   }).done(function (data) {
