@@ -1,14 +1,14 @@
 $(document).ready(function() {
-  getPets();
+  getDogs();
 
   $('#all-btn').on('click', function (e) {
     e.preventDefault();
-    getPets();
+    getDogs();
   })
 
 });
 
-function getPets() {
+function getDogs() {
   var api = 'http://api.petfinder.com/breed.list?key=389725918c3d5d347613f1b332d2b633';
   $.ajax({
     url: api
