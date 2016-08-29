@@ -1,12 +1,18 @@
-// const mongoose = require('mongoose');
-//
-// var petsSchema = {
-//   task: String,
-//   completed: {type:Boolean, default: false},
-//   userId: String
-// }
-//
-// const Pets = mongoose.model('Pets', petsSchema);
-//
-//
-// module.exports = model-pet;
+const mongoose = require('mongoose');
+
+var petSchema = {
+  breed: String,
+  kidFriendly: Boolean,
+  maintenance: String,
+  noiseLevel: String,
+  fullGrownSize: String,
+  personality: String,
+  imageName: String
+}
+
+const Pet = mongoose.model('Pet', petSchema);
+
+
+module.exports = Pet;
+
+// {type:Boolean, default: false}
