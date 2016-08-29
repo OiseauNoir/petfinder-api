@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-var petSchema = {
+var dogSchema = {
   breed: String,
   kidFriendly: Boolean,
   maintenance: String,
@@ -10,9 +10,9 @@ var petSchema = {
   imageName: String
 }
 
-const Pet = mongoose.model('Pet', petSchema);
+const Dog = mongoose.model('Dog', dogSchema);
 
 
-module.exports = Pet;
+module.exports = Dog;
 
 // {type:Boolean, default: false}

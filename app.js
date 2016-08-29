@@ -7,14 +7,17 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var _ = require("lodash");
+// var _ = require("lodash");
+//ADDED MONGOOSE
+const mongoose = require('mongoose');
 
-var PET_FINDER_KEY ='389725918c3d5d347613f1b332d2b633';
-var petfinder = require('petfinder')('api_key','api_secret');
+//ADDED THE DATABASE CONNECTION
+// mongoose.connect(process.env.DB_CONNECTION)
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var pets = require('./routes/pets');
+var dogs = require('./routes/dogs');
 
 var app = express();
 
@@ -32,7 +35,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/pets', pets);
+
+//ADDED APP.USE FOR DOGS
+app.use('/api/dogs', dogs);
 
 
 // catch 404 and forward to error handler
