@@ -6,5 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Connect The Spots' });
 });
 
+router.get('/quiz', function(req, res, next) {
+  res.render('quiz', { title: 'Connect The Spots' });
+});
+
 
 module.exports = router;
