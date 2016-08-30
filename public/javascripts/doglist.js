@@ -5,7 +5,7 @@ $(document).ready(function() {
 //load all available dogs for adoption
 function loadDogs() {
   $.ajax({
-      url:'http://localhost:3000/api/dogs',
+      url:'/api/dogs',
       method: 'GET'
     })
     .done(function(dogList) {
