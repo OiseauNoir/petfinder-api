@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 });
 
-
+//load all available dogs for adoption
 function loadDogs() {
   $.ajax({
       url:'http://localhost:3000/api/dogs',
@@ -24,7 +24,7 @@ function loadDogs() {
     })
 }
 
-//LOAD  BANDS
+//LOAD  DOG inside this ul
 function loadDog(dog) {
   var li = $('<li></li>')
   li.text(dog.breed)
