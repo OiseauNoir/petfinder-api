@@ -1,7 +1,14 @@
-$(document).ready(function() {
-  $('#submit-btn').on('click',function () {
+// $(document).ready(function() {
+//   $('#submit-btn').on('click',function () {
+//
+//   });
+// });
 
-  });
+$(document).ready(function() {
+ $( "form" ).on( "submit", function( event ) {
+   event.preventDefault();
+console.log( $( this ).serialize() );
+ });// Stuff to do as soon as the DOM is ready
 });
 
 
@@ -19,7 +26,7 @@ $('#c3') = noiseLevel: 'Low'
 
 $('#d1') = fullGrownSize: 'Small'
 $('#d2') = fullGrownSize: 'Medium'
-$('#d3') = fullGrownSize: 'Average'
+$('#d3') = fullGrownSize: 'Large'
 
 $('#e1') = personality: 'Athlete'
 $('#e2') = personality: 'Intellectual'
