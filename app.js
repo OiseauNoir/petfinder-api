@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 //ADDED THE DATABASE CONNECTION
-mongoose.connect(process.env.DB_CONNECTION)
+// mongoose.connect(process.env.DB_CONNECTION)
 
 
 var routes = require('./routes/index');
