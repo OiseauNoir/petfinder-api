@@ -27,16 +27,48 @@ li a {
 
 .grey-box {
   border-radius: 20px;
-  background: #ACABAB;
+  background: #393F3C;
   text-align: center;
+  width: 300px;
+  font-family: 'Baloo Da';
+  color: white;
+  margin-left: 100px;
+  padding: 10px 5px;
 }
 
-img {
+#quiz {
   height: 100px;
   text-align: center;
 }
 
 .green-box {
-  background: #95cc45;
+  background: #5CB85C;
   text-align: center;
+  border-radius: 20px;
+  width: 200px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.grey-box p {
+  font-family: 'BioRhyme';
+  font-size: 16px;
+}
+
+#dogpic {
+  width: 100px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.green-box h2 {
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+}
+
+#catpic {
+  width: 100px;
+  height: 60px;
+  margin-top: 10px;
 }
