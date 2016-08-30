@@ -5,7 +5,6 @@ mongoose.connect(process.env.DB_CONNECTION);
 
 var Dog = require('./models/dog');
 
-
 var dogsArr = [
   {
     breed: 'Pembroke Welsh Corgie',
@@ -244,10 +243,5 @@ var dogsArr = [
 ].forEach(function (dogObject) {
   var dog = new Dog(dogObject)
   dog.save(function (err) {
-    // if(err) {
-    //   console.log(err);
-    // } else {
-    //   res.redirect('/');
-    // }
   });
 });
