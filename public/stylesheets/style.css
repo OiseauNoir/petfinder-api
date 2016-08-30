@@ -1,10 +1,42 @@
-body {
+.navbar {
   font-family: 'Baloo Da', cursive;
+  color: #ACABAB;
   /*font-family: 'BioRhyme', serif;*/
 }
 
-li, a {
-  color: #00B7FF;
-  list-style: none;
-  text-decoration: none;
+.navbar-brand {
+  padding-right: 200px;
+  color: #ACABAB;
+  font-size: 40px;
+}
+
+#spots {
+  color: black;
+}
+
+li a {
+  font-family: 'BioRhyme', serif;
+  font-size: 16px;
+  color: #ACABAB
+}
+
+.col-md-6 {
+  font-family: 'BioRhyme', serif;
+  font-size: 30px;
+}
+
+.grey-box {
+  border-radius: 20px;
+  background: #ACABAB;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  text-align: center;
+}
+
+.green-box {
+  background: #95cc45;
+  text-align: center;
 }
