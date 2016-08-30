@@ -10,5 +10,8 @@ router.get('/quiz', function(req, res, next) {
   res.render('quiz', { title: 'Connect The Spots' });
 });
 
+router.get('/doglist', function(req, res, next) {
+  res.render('doglist', { title: 'List' });
+});
 
 module.exports = router;
