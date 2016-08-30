@@ -35,3 +35,8 @@ img {
   height: 100px;
   text-align: center;
 }
+
+.green-box {
+  background: #95cc45;
+  text-align: center;
+}
