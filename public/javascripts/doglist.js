@@ -20,6 +20,9 @@ function loadDogs() {
 function loadDog(dog) {
   console.log(dog);
   var li = $('<li></li>')
+  var img = $("<img />")
+  img.attr('src', '/img/dog_pics/' + dog.imageName);
   li.text(dog.breed)
+  li.append(img)
   $('.dogs').prepend(li)
 }

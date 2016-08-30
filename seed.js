@@ -14,7 +14,7 @@ var dogsArr = [
     noiseLevel: 'Low',
     fullGrownSize: 'Small',
     personality: 'Intellectual',
-    imageName: './public/img/dog_pics/corgi.jpeg'
+    imageName: 'corgi.jpeg'
   },
   {
     breed: 'Bulldog',
@@ -23,7 +23,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Small',
     personality: 'Entertainer',
-    imageName: './public/img/dog_pics/bulldog.jpeg'
+    imageName: 'bulldog.jpeg'
   },
   {
     breed: 'Daschund',
@@ -32,7 +32,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Small',
     personality: 'Entertainer',
-    imageName: './public/img/dog_pics/daschund.jpeg'
+    imageName: 'daschund.jpeg'
   },
   {
     breed: 'Shih Tzu',
@@ -41,7 +41,7 @@ var dogsArr = [
     noiseLevel: 'Low',
     fullGrownSize: 'Small',
     personality: 'Cuddler',
-    imageName: './public/img/dog_pics/shih_tzu.jpeg'
+    imageName: 'shih_tzu.jpeg'
   },
   {
     breed: 'Havanese',
@@ -50,7 +50,7 @@ var dogsArr = [
     noiseLevel: 'Low',
     fullGrownSize: 'Small',
     personality: 'Entertainer',
-    imageName: './public/img/dog_pics/havanese.jpeg'
+    imageName: 'havanese.jpeg'
   },
   {
     breed: 'Mastiff',
@@ -59,7 +59,7 @@ var dogsArr = [
     noiseLevel: 'Low',
     fullGrownSize: 'Large',
     personality: 'Lone Wolf',
-    imageName: './public/img/dog_pics/mastiff.jpeg'
+    imageName: 'mastiff.jpeg'
   },
   {
     breed: 'King Charles Spaniel',
@@ -68,7 +68,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Small',
     personality: 'Cuddler',
-    imageName: './public/img/dog_pics/king_charles.jpeg'
+    imageName: 'king_charles.jpeg'
   },
   {
     breed: 'Boston Terrier',
@@ -77,7 +77,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Small',
     personality: 'Entertainer',
-    imageName: './public/img/dog_pics/_terriers.jpeg'
+    imageName: 'boston_terriers.jpeg'
   },
   {
     breed: 'Pointer (German Shorthair)',
@@ -86,7 +86,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Medium',
     personality: 'Lone Wolf',
-    imageName: './public/img/dog_pics/pointer_germanshorthair.jpeg'
+    imageName: 'pointer_germanshorthair.jpeg'
   },
   {
     breed: 'Beagle',
@@ -95,7 +95,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Small',
     personality: 'Cuddler',
-    imageName: './public/img/dog_pics/beagles.jpeg'
+    imageName: 'beagles.jpeg'
   },
   {
     breed: 'Rottweiler',
@@ -104,7 +104,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Large',
     personality: 'Defender',
-    imageName: './public/img/dog_pics/rott.jpeg'
+    imageName: 'rott.jpeg'
   },
   {
     breed: 'Sheepdog',
@@ -113,7 +113,7 @@ var dogsArr = [
     noiseLevel: 'Low',
     fullGrownSize: 'Small',
     personality: 'Athlete',
-    imageName: './public/img/dog_pics/shetland_sheepdog.jpeg'
+    imageName: 'shetland_sheepdog.jpeg'
   },
   {
     breed: 'Poodle',
@@ -122,7 +122,7 @@ var dogsArr = [
     noiseLevel: 'Low',
     fullGrownSize: 'Large',
     personality: 'Intellectual',
-    imageName: './public/img/dog_pics/poodle.jpeg'
+    imageName: 'poodle.jpeg'
   },
   {
     breed: 'Boxer',
@@ -131,7 +131,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Medium',
     personality: 'Defender',
-    imageName: './public/img/dog_pics/boxers.jpeg'
+    imageName: 'boxers.jpeg'
   },
   {
     breed: 'Retriever',
@@ -140,7 +140,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Large',
     personality: 'Athlete',
-    imageName: './public/img/dog_pics/retriever_golden.jpeg'
+    imageName: 'retriever_golden.jpeg'
   },
   {
     breed: 'French Bulldog',
@@ -149,7 +149,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Small',
     personality: 'Intellectual',
-    imageName: './public/img/dog_pics/french_bulldog.jpeg'
+    imageName: 'french_bulldog.jpeg'
   },
   {
     breed: 'Australian Shepherd',
@@ -158,7 +158,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Medium',
     personality: 'Intellectual',
-    imageName: './public/img/dog_pics/australian_shepherd.jpeg'
+    imageName: 'australian_shepherd.jpeg'
   },
   {
     breed: 'Siberian Husky',
@@ -167,7 +167,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Medium',
     personality: 'Lone Wolf',
-    imageName: './public/img/dog_pics/siberian_husky.jpeg'
+    imageName: 'siberian_husky.jpeg'
   },
   {
     breed: 'Labrador',
@@ -176,7 +176,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Large',
     personality: 'Athlete',
-    imageName: './public/img/dog_pics/retriever_lab.jpeg'
+    imageName: 'retriever_lab.jpeg'
   },
   {
     breed: 'Great Dane',
@@ -185,7 +185,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Large',
     personality: 'Cuddler',
-    imageName: './public/img/dog_pics/great_dane.jpeg'
+    imageName: 'great_dane.jpeg'
   },
   {
     breed: 'German Shepherd',
@@ -194,7 +194,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Large',
     personality: 'Defender',
-    imageName: './public/img/dog_pics/german_shepherd.jpeg'
+    imageName: 'german_shepherd.jpeg'
   },
   {
     breed: 'Doberman Pinscher',
@@ -203,7 +203,7 @@ var dogsArr = [
     noiseLevel: 'Low',
     fullGrownSize: 'Large',
     personality: 'Defender',
-    imageName: './public/img/dog_pics/doberman.jpeg'
+    imageName: 'doberman.jpeg'
   },
   {
     breed: 'Miniature Schnauzer',
@@ -212,7 +212,7 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Small',
     personality: 'Lone Wolf',
-    imageName: './public/img/dog_pics/schnauzer.jpeg'
+    imageName: 'schnauzer.jpeg'
   },
   {
     breed: 'Pomeranian',
@@ -221,7 +221,7 @@ var dogsArr = [
     noiseLevel: 'High',
     fullGrownSize: 'Small',
     personality: 'Intellectual',
-    imageName: './public/img/dog_pics/pomeranian.jpeg'
+    imageName: 'pomeranian.jpeg'
   },
   {
     breed: 'Yorkshire Terrier',
@@ -230,7 +230,16 @@ var dogsArr = [
     noiseLevel: 'Medium',
     fullGrownSize: 'Small',
     personality: 'Cuddler',
-    imageName: './public/img/dog_pics/boston_terriers.jpeg'
+    imageName: 'yorkshire_terrier.jpeg'
+  },
+  {
+    breed: 'Mutt',
+    kidFriendly: true,
+    maintenance: 'Medium',
+    noiseLevel: 'Medium',
+    fullGrownSize: 'Medium',
+    personality: 'Entertainer',
+    imageName: 'mutt.jpg'
   },
 ].forEach(function (dogObject) {
   var dog = new Dog(dogObject)
