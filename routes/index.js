@@ -14,4 +14,8 @@ router.get('/doglist', function(req, res, next) {
   res.render('doglist', { title: 'List' });
 });
 
+router.get('/quiz', function(req, res, next) {
+  res.render('quiz', { title: 'Quiz' });
+});
+
 module.exports = router;
