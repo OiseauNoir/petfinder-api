@@ -9,13 +9,14 @@ function loadDogs() {
       url:'/api/dogs' + filter,
       method: 'GET'
     })
+
     .done(function(dogList) {
       // console.log(data);
       for (var i = 0; i <dogList.length; i++) {
         loadDog(dogList[i])
       }
     })
-}
+  }
 
 //LOAD  DOG inside this ul
 function loadDog(dog) {
@@ -23,7 +24,12 @@ function loadDog(dog) {
   var li = $('<li></li>')
   var img = $("<img />")
   img.attr('src', '/img/dog_pics/' + dog.imageName);
-  li.text(dog.breed)
+  li.append(dog.breed)
+  li.append(dog.kidFriendly)
+  li.append(dog.maintenance)
+  li.append(dog.noiseLevel)
+  li.append(dog.fullGrownSize)
+  li.append(dog.personality)
   li.append(img)
   $('.dogs').prepend(li)
 }

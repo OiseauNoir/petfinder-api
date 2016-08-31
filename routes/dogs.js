@@ -4,7 +4,7 @@ var Dog = require('../models/dog');
 
 // GET dogs list.
 router.get('/', function (req, res, next) {
-  Dog.find({}, function (err, dogs) {
+  Dog.find(req.query, function (err, dogs) {
     if (err) {
       res.status(500).send()
     } else {
@@ -12,4 +12,5 @@ router.get('/', function (req, res, next) {
     }
   })
 });
+
 module.exports = router;
