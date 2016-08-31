@@ -22,16 +22,27 @@ function loadDogs() {
 function loadDog(dog) {
   console.log(dog);
   var li = $('<li></li>')
+  li.addClass('dogListItem')
   var img = $("<img />")
   img.attr('src', '/img/dog_pics/' + dog.imageName);
-  li.append(dog.breed)
-  li.append(dog.kidFriendly)
-  li.append(dog.maintenance)
-  li.append(dog.noiseLevel)
-  li.append(dog.fullGrownSize)
-  li.append(dog.personality)
   li.append(img)
+  li.append(dogFeature('Breed: ' +dog.breed, 'breed'))
+  var kidFriendlyText = dog.kidFriendly ? 'Kid Friendly' : 'NOT KID FRIENDLY'
+
+  li.append(dogFeature(kidFriendlyText, 'kidFriendly'))
+  li.append(dogFeature('Maintenance: ' + dog.maintenance, 'maintenance'))
+  li.append(dogFeature('Noise Level: ' + dog.noiseLevel, 'noiseLevel'))
+  li.append(dogFeature('Size: ' + dog.fullGrownSize, 'fullGrownSize'))
+  li.append(dogFeature('Personality: ' + dog.personality, 'personality'))
+
   $('.dogs').prepend(li)
+}
+
+function dogFeature(text, className) {
+  var div = $('<div />')
+  div.text(text)
+  div.addClass(className)
+  return div
 }
 
 function getUrlVars() {
