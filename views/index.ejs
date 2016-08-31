@@ -1,67 +1,31 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pet Project Frontend</title>
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Da|BioRhyme:300,400" rel="stylesheet">
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="/stylesheets/style.css">
-
-</head>
-
-<body>
-    <nav class="navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">connect the <span id="spots">spots</span></a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Adopt
-        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Dogs</a></li>
-                        <li><a href="#">Cats</a></li>
-                        <li><a href="#">I Don't Know</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Donate</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile
-        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Pet-lover</a></li>
-                        <li><a href="#">Shelter</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<% include partials/header %>
 
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="grey-box">
-                    <h2>Not sure if you want a dog or a cat? </h2>
-                    <img id="quiz" src="/img/homepage quiz.png" alt=""/>
-                    <p>Take our quiz and see</p>
-                </div>
+                <a href="/quiz">
+                    <div class="grey-box">
+                        <h2>Not sure if you want a dog or a cat? </h2>
+                        <img id="quiz" src="/img/homepage quiz.png" alt="" />
+                        <p>Take our quiz and see</p>
+                    </div>
+                </a>
+
             </div>
             <div class="col-md-6">
-                <div class="green-box">
-                    <img class="pic" src="/img/homepage dog.png" alt="" />
-                    <h2 id="green-box-dog"><a href="/doglist">See Available Dogs</a></h2>
-                </div>
-                <div class="green-box">
-                    <img class="pic" src="/img/homepage cat.png" alt="" />
-                    <h2>See Available Cats</h2>
-                </div>
+                <a href="/doglist">
+                    <div class="green-box">
+                        <img class="pic" src="/img/homepage dog.png" alt="" />
+                        <h2 id="green-box-dog"><a href="/doglist">See Available Dogs</a></h2>
+                    </div>
+                </a>
+                <a href="/catlist">
+                    <div class="green-box">
+                        <img class="pic" src="/img/homepage cat.png" alt="" />
+                        <h2>See Available Cats</h2>
+                    </div>
+                </a>
+
             </div>
         </div>
     </div>
@@ -70,36 +34,34 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="grey-box">
-                    <h2>Find your ideal dog breed </h2>
-                    <p>Click here to take quiz</p>
-                </div>
+
+                <a href="#">
+                    <div class="grey-box">
+                        <h2>Find your ideal dog breed </h2>
+                        <p>Click here to take quiz</p>
+                    </div>
+                </a>
             </div>
+
             <div class="col-md-3">
-                <div class="small-green-box">
-                    <img class="pic" src="/img/homepage donate.png" alt="" />
-                    <h2 id="green-box-dog"><a href="/doglist">Donate</a></h2>
-                </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="small-green-box">
-                    <img class="pic" src="/img/homepage profile.png" alt="" />
-                    <h2>Profile</h2>
-                </div>
-              </div>
+
+                <a href="#">
+                    <div class="small-green-box">
+                        <img class="pic" src="/img/homepage donate.png" alt="" />
+                        <h2 id="green-box-dog"><a href="/doglist">Donate</a></h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#">
+                    <div class="small-green-box">
+                        <img class="pic" src="/img/homepage profile.png" alt="" />
+                        <h2>Profile</h2>
+                    </div>
+                </a>
+
             </div>
         </div>
     </div>
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <script src="/javascripts/script.js" charset="utf-8"></script>
-
-</body>
-
-</html>
+    </div>
