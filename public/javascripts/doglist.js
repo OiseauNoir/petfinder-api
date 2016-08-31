@@ -42,7 +42,6 @@ function dogFeature(text, className) {
   var div = $('<div />')
   div.text(text)
   div.addClass('feature')
-  div.addClass('round')
   div.addClass(className)
   return div
 }
