@@ -2,6 +2,7 @@
   font-family: 'Baloo Da', cursive;
   color: #ACABAB;
   /*font-family: 'BioRhyme', serif;*/
+  margin-left: 50px;
 }
 
 .navbar-brand {
@@ -51,24 +52,77 @@ li a {
   text-align: center;
 }
 
+.small-grey-box {
+    border-radius: 20px;
+    background: #393F3C;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+    margin-left: 120px;
+    height: 150px;
+}
+
+.small-grey-box h2 {
+  font-family: 'Baloo Da';
+  color:white;
+}
+
+.small-grey-box p {
+  font-family: 'BioRhyme';
+  font-size: 16px;
+  color: white;
+}
+
+
+
 .green-box {
   background: #5CB85C;
   text-align: center;
   border-radius: 20px;
-  width: 250px;
+  width: 300px;
   height: 100px;
   margin-bottom: 40px;
 }
 
-.green-box h2 {
+.green-box p {
   font-size: 16px;
+  color: white;
 }
 
 .green-box .pic {
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 
 .small-green-box {
-  margin: 10px
+  background: #95CC45;
+  height: 150px;
+  text-align: center;
+  border-radius: 20px;
+  width: 150px;
+
+
+}
+
+.col-md-2 p {
+  font-family: 'Biorhyme';
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+.smallpic {
+  width: 150px;
+}
+
+.smallpic2 {
+  width: 130px;
+}
+
+.mission {
+  font-family: 'Baloo Da';
+  text-align: center;
+  width: 500px;
+  margin-left: 300px;
+  padding-top: 30px;
 }
