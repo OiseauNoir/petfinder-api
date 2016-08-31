@@ -4,8 +4,9 @@ $(document).ready(function() {
 
 //load all available dogs for adoption
 function loadDogs() {
+  var filter = getUrlVars()
   $.ajax({
-      url:'/api/dogs',
+      url:'/api/dogs' + filter,
       method: 'GET'
     })
     .done(function(dogList) {
@@ -25,4 +26,14 @@ function loadDog(dog) {
   li.text(dog.breed)
   li.append(img)
   $('.dogs').prepend(li)
+}
+
+function getUrlVars() {
+  urlArray = window.location.href.split('?')
+  if (urlArray.length===1) {
+      return ''
+  } else {
+    return '?'+ urlArray[1]
+  }
+  console.log(window.location.href.split('?'));
 }
