@@ -1,0 +1,16 @@
+#shelters {
+  background-color: #D8D8D8;
+  width: 80%;
+  margin-left: 80px;
+  border-radius: 0 20px 20px 0;
+}
+
+#shelters h2 {
+  font-family: 'Baloo Da';
+  font-size: 64px;
+  padding: 20px;
+}
+
+#apa h1 {
+  display: inline-block;
+}
