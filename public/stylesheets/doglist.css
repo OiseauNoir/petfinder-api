@@ -1,0 +1,40 @@
+ul.dogs{
+  display: inline-block;
+}
+.dogPics{
+  padding: 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+li.dogListItem{
+  /*display: inline-block;*/
+  background-color: #D8D8D8;
+  list-style: none;
+  margin:20px;
+  width:50%;
+
+}
+.feature {
+  display: inline-block;
+  padding: 10px;
+}
+/*
+.breed{
+  display: inline-block;
+}
+.kidFriendly {
+  display: inline-block;
+}
+.maintenance {
+  display: inline-block;
+}
+.noiseLevel{
+  display: inline-block;
+}
+.fullGrownSize{
+  display: inline-block;
+}
+.personality{
+  display: inline-block;
+}*/

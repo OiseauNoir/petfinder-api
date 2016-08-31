@@ -20,10 +20,10 @@ function loadDogs() {
 
 //LOAD  DOG inside this ul
 function loadDog(dog) {
-  console.log(dog);
+  // console.log(dog);
   var li = $('<li></li>')
   li.addClass('dogListItem')
-  var img = $("<img />")
+  var img = $("<img />").addClass('dogPics')
   img.attr('src', '/img/dog_pics/' + dog.imageName);
   li.append(img)
   li.append(dogFeature('Breed: ' +dog.breed, 'breed'))
@@ -41,6 +41,8 @@ function loadDog(dog) {
 function dogFeature(text, className) {
   var div = $('<div />')
   div.text(text)
+  div.addClass('feature')
+  div.addClass('round')
   div.addClass(className)
   return div
 }
