@@ -16,7 +16,7 @@ li.dogListItem{
   background-color: #D8D8D8;
   list-style: none;
   margin:20px;
-  width:70%;
+  width:75%;
   overflow: hidden;
   border-radius: 20px;
 }
@@ -35,15 +35,20 @@ li.dogListItem{
 
 }
 .readMore{
-  padding: 10px;
-  color: red;
+  padding-right: 20px;
+  color: gray;
   float: right;
   /*text-decoration: none;*/
   cursor: pointer;
 }
 .readMore:hover{
-  color: white;
+  color: red;
 }
 .heart{
-  float: left;
+  float: right;
+  cursor: pointer;
+  padding-right: 20px;
+}
+.heart:hover {
+  color: red;
 }
