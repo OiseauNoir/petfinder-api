@@ -11,11 +11,9 @@ function loadDogs() {
     })
     .done(function(dogList) {
       // console.log(data);
-
-
         if (dogList.length === 0) {
           alert ('Sorry, no dogs in our database match your criteria.  Please try again with different inputs!')
-          window.location.assign('http://localhost:3000/quiz')
+          window.location.assign('/quiz')
         } else {
           for (var i = 0; i <dogList.length; i++) {
             loadDog(dogList[i])
