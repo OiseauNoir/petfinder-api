@@ -34,10 +34,11 @@ li a {
 
 .grey-box {
   border-radius: 20px;
-  background: #393F3C;
-  text-align: center;
+  background: #4C4945;
+  text-align: left;
   width: 350px;
   padding: 10px;
+  padding-left: 20px;
   margin-left: 200px;
   margin-bottom: 20px;
   height: 300px;
@@ -63,8 +64,8 @@ li a {
 
 .small-grey-box {
     border-radius: 20px;
-    background: #393F3C;
-    text-align: center;
+    background: #4C4945;
+    text-align: left;
     width: 350px;
     padding-top: 5px;
     height: 150px;
@@ -75,6 +76,7 @@ li a {
   font-family: 'Baloo Da';
   color:white;
   padding: 5px;
+  padding-left: 20px;
 }
 
 .small-grey-box p {
@@ -82,10 +84,8 @@ li a {
   font-size: 16px;
   color: white;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 20px;
 }
-
-
 
 .green-box {
   background: #4ca354;
@@ -113,10 +113,7 @@ li a {
   text-align: center;
   border-radius: 20px;
   width: 130px;
-
 }
-
-
 
 .col-md-2 p {
   font-family: 'Biorhyme';
