@@ -9,14 +9,23 @@ function loadDogs() {
       url:'/api/dogs' + filter,
       method: 'GET'
     })
-
     .done(function(dogList) {
       // console.log(data);
       for (var i = 0; i <dogList.length; i++) {
         loadDog(dogList[i])
       }
+        if (dogList.length === 0) {
+          alert ('Sorry, no dogs in our database match your criteria.  Please try again with different inputs!')
+        } else {
+          loadDog()
+      }
     })
   }
+
+
+
+
+
 
 //LOAD  DOG inside this ul
 function loadDog(dog) {
