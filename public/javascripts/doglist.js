@@ -16,6 +16,7 @@ function loadDogs() {
       }
         if (dogList.length === 0) {
           alert ('Sorry, no dogs in our database match your criteria.  Please try again with different inputs!')
+          window.location.assign('http://localhost:3000/quiz')
         } else {
           loadDog()
       }
