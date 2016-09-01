@@ -4,78 +4,216 @@
 
       <form class="quiz" action="/doglist" method="get">
         <h2>Do you have any kids?</h2>
+          <div class="container">
+            <div class="row">
         <div class="btn-group" data-toggle="buttons">
+          <div class="col-md-4">
+            <div class="button-border">
           <label class="btn btn-primary">
-            <input type="radio"  autocomplete="off" name="kidFriendly" value="true"> Yeah, crawling around
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="kidFriendly" value="true"> Yeah, walking and talking
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off"> No little ones here
+            <label for="baby"><img src="/img/crawler.png" alt="" /></label>
+            <p>Yeah, crawling around</p>
+            <input type="radio"  autocomplete="off" name="kidFriendly" value="true" id="baby">
           </label>
         </div>
+        </div>
+        <div class="col-md-4">
+          <div class="button-border">
+          <label class="btn btn-primary">
+            <label for="walker"><img src="/img/walker.png" alt="" /></label>
+            <p>Yeah, walking and talking</p>
+            <input type="radio" autocomplete="off" name="kidFriendly" value="true" id="walker">
+          </label>
+        </div>
+      </div>
+        <div class="col-md-4">
+          <div class="button-border">
+          <label class="btn btn-primary">
+            <label for="nokid"><img src="" alt="" /></label>
+            <p>No little ones in this home</p>
+            <input type="radio" autocomplete="off" id="nokid">
+          </label>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
         <h2>What are you willing to do for your dog?</h2>
+        <div class="container">
+          <div class="row">
         <div class="btn-group" data-toggle="buttons">
+          <div class="col-md-4">
+            <div class="button-border">
           <label class="btn btn-primary">
-            <input type="radio"  autocomplete="off" name="maintenance" value="High"> Run marathons and sweep everyday
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="maintenance" value="Medium"> A walk here and there, maybe some grooming
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="maintenance" value="Low"> The less care needed, the better
+            <label for="run"><img src="img/run marathons.png"/></label>
+            <p>Run marathons and sweep everyday</p>
+            <input type="radio"  autocomplete="off" name="maintenance" value="High" id="run">
           </label>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for="sweeper"><img src="/img/sweeper.png" /></label>
+            <p>A walk here and there, maybe some grooming</p>
+            <input type="radio" autocomplete="off" name="maintenance" value="Medium" id="sweeper">
+          </label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for="less"><img src="/img/lesscarethebetter.png" /></link>
+              <p>The less care needed, the better</p>
+            <input type="radio" autocomplete="off" name="maintenance" value="Low" id="less">
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
         <h2>How much barking can you handle?</h2>
+        <div class="container">
+          <div class="row">
         <div class="btn-group" data-toggle="buttons">
+          <div class="col-md-4">
+            <div class="button-border">
           <label class="btn btn-primary">
-            <input type="radio"  autocomplete="off" name="noiseLevel" value="High"> A lot, my indie band practice will drown it out
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="noiseLevel" value="Medium"> Just friendly conversations
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="noiseLevel" value="Low"> My neighbors shouldn't know I have a pet
+            <label for="guitar"><img src="/img/guitar icon.png" /></link>
+              <p> A lot, my indie band practice will drown it out</p>
+            <input type="radio"  autocomplete="off" name="noiseLevel" value="High" id="guitar">
           </label>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+          <label for="speech"><img src="/img/speech bubble icon.png" /></label>
+          <p>Just friendly conversations</p>
+            <input type="radio" autocomplete="off" name="noiseLevel" value="Medium" id="speech">
+          </label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for="nonoise"><img src="/img/no noise.png" /></label>
+              <p>My neighbors shouldn't know I have a pet</p>
+            <input type="radio" autocomplete="off" name="noiseLevel" value="Low" id="nonoise">
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
         <h2>What size are we talking?</h2>
+        <div class="container">
+          <div class="row">
         <div class="btn-group" data-toggle="buttons">
+          <div class="col-md-4">
+            <div class="button-border">
           <label class="btn btn-primary">
-            <input type="radio"  autocomplete="off" name="fullGrownSize" value="Small"> Can fit in my purse
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="fullGrownSize" value="Medium"> Bigger than the average dog
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="fullGrownSize" value="Large"> Eye to eye with ponies
+            <label for="small"><img src="/img/Small.png" /></label>
+            <p>Can fit in my purse</p>
+            <input type="radio"  autocomplete="off" name="fullGrownSize" value="Small" id="small">
           </label>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for="medium"><img src="/img/Size.png" /></label>
+            <p>Bigger than the average dog</p>
+            <input type="radio" autocomplete="off" name="fullGrownSize" value="Medium" id="medium">
+          </label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for="large"><img src="/img/Large.png" /></label>
+            <p>Eye to eye with ponies</p>
+            <input type="radio" autocomplete="off" name="fullGrownSize" value="Large" id="large">
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         <h2>My dog will ... ?</h2>
+        <div class="container">
+          <div class="row">
         <div class="btn-group" data-toggle="buttons">
+          <div class="col-md-4">
+            <div class="button-border">
           <label class="btn btn-primary">
-            <input type="radio"  autocomplete="off" name="personality" value="Athlete"> Be an expert tennis ball retreiver
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="personality" value="Intellectual"> Be a master at performing tricks for treats
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="personality" value="Lone Wolf"> Be off doing their own thing
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio"  autocomplete="off" name="personality" value="Defender"> Be my home security system
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="personality" value="Entertainer"> Act as my nightly entertainment
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" autocomplete="off" name="personality" value="Cuddler"> Keep my lap warm on the couch
+            <label for=""><img src="" /></label>
+            <p>Be an expert tennis ball retreiver</p>
+            <input type="radio"  autocomplete="off" name="personality" value="Athlete">
           </label>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for=""><img src="" /></label>
+            <p>Be a master at performing tricks for treats</p>
+            <input type="radio" autocomplete="off" name="personality" value="Intellectual">
+          </label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for=""><img src="" /></label>
+            <p>Be off doing their own thing</p>
+            <input type="radio" autocomplete="off" name="personality" value="Lone Wolf">
+          </label>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for=""><img src="" /></label>
+            <p>Be my home security system</p>
+            <input type="radio"  autocomplete="off" name="personality" value="Defender">
+          </label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for=""><img src="" /></label>
+            <p>Act as my nightly entertainment</p>
+            <input type="radio" autocomplete="off" name="personality" value="Entertainer">
+          </label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="button-border">
+          <label class="btn btn-primary">
+            <label for=""><img src-"" /></label>
+            <p>Keep my lap warm on the couch</p>
+            <input type="radio" autocomplete="off" name="personality" value="Cuddler">
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         <br>
         <input type="submit" value="Submit" id="submit-btn">
     </form>

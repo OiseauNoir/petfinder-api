@@ -147,3 +147,41 @@ li a {
 #right {
   margin-left: -20px;
 }
+
+.button-border {
+  border:2px solid black;
+  border-radius: 20px;
+  height: 300px;
+
+}
+
+#quizpic {
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color:transparent;
+  color: black;
+  border-color: transparent;
+  white-space: pre-line;
+  border-radius: 20px;
+  height: 300px;
+  width: 250px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+
+
+
+input {
+  visibility: hidden;
+}
+
+.btn p {
+  font-size: 24px;
+  font-family: 'BioRhyme';
+ }
