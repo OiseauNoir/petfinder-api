@@ -5,6 +5,10 @@
   padding-top: 30px;
 }
 
+a {
+  color: inherit;
+}
+
 .shelter-text {
   font-family: 'BioRhyme';
   font-size: 24px;
