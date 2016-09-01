@@ -14,6 +14,10 @@ router.get('/doglist', function(req, res, next) {
   res.render('doglist', { title: 'List' });
 });
 
+router.get('/catlist', function(req, res, next) {
+  res.render('catlist', { title: 'Cats' });
+});
+
 router.get('/quiz', function(req, res, next) {
   res.render('quiz', { title: 'Quiz' });
 });

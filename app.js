@@ -18,6 +18,7 @@ mongoose.connect(process.env.DB_CONNECTION)
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var dogs = require('./routes/dogs');
+var cats = require('./routes/cats');
 
 var app = express();
 
@@ -38,6 +39,8 @@ app.use('/users', users);
 
 //ADDED APP.USE FOR DOGS
 app.use('/api/dogs', dogs);
+app.use('/api/cats', cats);
+
 
 
 // catch 404 and forward to error handler
