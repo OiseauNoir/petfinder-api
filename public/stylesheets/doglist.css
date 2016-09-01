@@ -9,14 +9,11 @@ ul.dogs{
   float: left;
 }
 li.dogListItem{
-  /*display: inline-block;*/
   background-color: #D8D8D8;
   list-style: none;
   margin:20px;
   width:70%;
   overflow: hidden;
-  /*height: 100px;*/
-
 }
 .feature {
   display: inline-block;
@@ -24,28 +21,10 @@ li.dogListItem{
   margin: 5px;
   border: 2px solid #F01C47;
   border-radius: 30px;
-  /*background-color: #000000;*/
-  /*outline-color: #F01C47;*/
 }
 .features {
-  padding-top: 40px;
+  padding-top: 10px;
 }
-/*
-.breed{
-
+.about{
+  padding-top: 10px;
 }
-.kidFriendly {
-
-}
-.maintenance {
-
-}
-.noiseLevel{
-
-}
-.fullGrownSize{
-
-}
-.personality{
-
-}*/
