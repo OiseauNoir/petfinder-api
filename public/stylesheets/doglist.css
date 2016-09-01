@@ -1,5 +1,9 @@
+body{
+  font-family: 'Baloo Da', cursive;
+}
 ul.dogs{
   display: inline-block;
+
 }
 .dogPics{
   padding: 20px;
@@ -23,8 +27,16 @@ li.dogListItem{
   border-radius: 30px;
 }
 .features {
-  padding-top: 10px;
+  padding: 10px;
 }
 .about{
-  padding-top: 10px;
+  padding: 10px;
+
+}
+.readMore{
+  padding: 5px;
+  color: red;
+  float: right;
+  /*text-decoration: none;*/
+
 }
