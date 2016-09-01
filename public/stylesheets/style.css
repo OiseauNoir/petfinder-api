@@ -7,7 +7,9 @@ a:hover {
   color: #ACABAB;
   /*font-family: 'BioRhyme', serif;*/
   margin-left: 70px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  padding-left: 180px;
+
 }
 
 .navbar-brand {
