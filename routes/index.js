@@ -22,4 +22,9 @@ router.get('/quiz', function(req, res, next) {
   res.render('quiz', { title: 'Quiz' });
 });
 
+router.get('/aquiz', function(req, res, next) {
+  res.render('aquiz', { title: 'Cat or Dog Quiz' });
+});
+
+
 module.exports = router;
