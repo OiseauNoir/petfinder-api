@@ -11,14 +11,15 @@ function loadDogs() {
     })
     .done(function(dogList) {
       // console.log(data);
-      for (var i = 0; i <dogList.length; i++) {
-        loadDog(dogList[i])
-      }
+
+
         if (dogList.length === 0) {
           alert ('Sorry, no dogs in our database match your criteria.  Please try again with different inputs!')
           window.location.assign('http://localhost:3000/quiz')
         } else {
-          loadDog()
+          for (var i = 0; i <dogList.length; i++) {
+            loadDog(dogList[i])
+        }
       }
     })
   }
@@ -40,6 +41,13 @@ function loadDog(dog) {
   //FOR NAME OF THE ANIMAL
   var name = $('<h1 />')
   name.append('Name')
+
+  //heart
+   var heart = $('<a><h2>&hearts;</h2></a>')
+   // console.log(heart);
+   heart.addClass('heart')
+
+
 
 
   //For the description
@@ -65,6 +73,7 @@ function loadDog(dog) {
   more.addClass('readMore')
 
   //LOADS LI ITEMS INTO THE DIVS
+  li.append(heart)
   li.append(name)
   li.append(about)
   li.append(div)
