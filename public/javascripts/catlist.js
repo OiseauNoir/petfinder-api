@@ -15,19 +15,43 @@ function loadCats() {
 function cats(data) {
   // console.log(data);
   var breeds = data.petfinder.breeds.breed;
-  console.log(breeds);
+  // console.log(breeds);
 
   breeds.forEach(function (breed) {
     // console.log(breed);
     loadCat(breed);
   })
-}
+
+
 
 function loadCat(breed) {
   // console.log(breed);
   var li = $('<li />')
-  li.addClass('catListItem')
-  li.append(breed.$t)
+  li.addClass('catBreed')
+
+  //FOR NAME OF THE ANIMAL
+  var name = $('<h1 />')
+  name.append('Name')
+
+  //heart
+   var heart = $('<a><h2>&hearts;</h2></a>')
+   // console.log(heart);
+   heart.addClass('heart')
+
+  //READ MORE
+  var more = $('<a><h3>Read More</h3></a>')
+  more.addClass('readMore')
+
+  var div = $('<div />')
+  div.addClass('breedName')
+
+  div.append('Breed: ' + breed.$t)
+
+  li.append(heart)
+  li.append(name)
+  li.append(div)
+  li.append(more)
 
   $('.cats').append(li)
+}
 }
