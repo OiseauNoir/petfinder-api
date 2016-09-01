@@ -50,10 +50,16 @@ function loadDog(dog) {
   div.append(dogFeature('Size: ' + dog.fullGrownSize, 'fullGrownSize'))
   div.append(dogFeature('Personality: ' + dog.personality, 'personality'))
 
+  //READ MORE
+  var more = $('<a><h3>Read More</h3></a>')
+  more.addClass('readMore')
+
   //LOADS LI ITEMS INTO THE DIVS
   li.append(name)
   li.append(about)
   li.append(div)
+  li.append(more)
+
   //GETS LOADS INTO UL CLASS DOGS
   $('.dogs').prepend(li)
 }
