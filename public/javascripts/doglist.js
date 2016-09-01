@@ -27,12 +27,22 @@ function loadDog(dog) {
   img.attr('src', '/img/dog_pics/' + dog.imageName);
   li.append(img)
 
-  var kidFriendlyText = dog.kidFriendly ? 'Kid Friendly' : 'NOT KID FRIENDLY'
+  //FOR NAME OF THE ANIMAL
+  var name = $('<h1 />')
+  name.append('Name')
 
+
+  //For the description
+  var about = $('<div />')
+  about.addClass('about')
+  about.append('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')
+
+  var kidFriendlyText = dog.kidFriendly ? 'Kid Friendly' : 'NOT KID FRIENDLY'
+  //creates wrapping divs
   var div = $('<div />')
   div.addClass('features')
 
-
+  //LOADS THE KEY VALUES OF THE DOGS
   div.append(dogFeature('Breed: ' +dog.breed, 'breed'))
   div.append(dogFeature(kidFriendlyText, 'kidFriendly'))
   div.append(dogFeature('Maintenance: ' + dog.maintenance, 'maintenance'))
@@ -40,8 +50,11 @@ function loadDog(dog) {
   div.append(dogFeature('Size: ' + dog.fullGrownSize, 'fullGrownSize'))
   div.append(dogFeature('Personality: ' + dog.personality, 'personality'))
 
+  //LOADS LI ITEMS INTO THE DIVS
+  li.append(name)
+  li.append(about)
   li.append(div)
-
+  //GETS LOADS INTO UL CLASS DOGS
   $('.dogs').prepend(li)
 }
 
