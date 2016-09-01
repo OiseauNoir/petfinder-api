@@ -1,16 +1,50 @@
-#shelters {
-  background-color: #D8D8D8;
-  width: 80%;
-  margin-left: 80px;
-  border-radius: 0 20px 20px 0;
+.shelter-name  {
+  font-family: 'Baloo Da';
+  font-size: 42px;
+  color: #95CC45;
+  padding-top: 30px;
 }
 
-#shelters h2 {
+.shelter-text {
+  font-family: 'BioRhyme';
+  font-size: 24px;
+}
+
+#apa {
+  background: #ACABAB;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#apa-pic {
+  width: 100%;
+  margin-left: -20px;
+  margin-top: -2px;
+  margin-bottom: -7px;
+
+}
+
+#needs {
   font-family: 'Baloo Da';
   font-size: 64px;
-  padding: 20px;
+  margin-left: 80px;
+  padding-top: 20px;
 }
 
-#apa h1 {
-  display: inline-block;
+#aac-pic {
+  width: 360px;
+  height: 304px;
+  margin-left: -15px;
+
+}
+
+.page {
+  background-color: #D8D8D8;
+  width: 90%;
+  border-radius: 0 20px 20px 0;
+  margin-left: 80px;
+}
+
+.last {
+  margin-bottom: 20px;
 }
