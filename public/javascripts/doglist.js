@@ -88,5 +88,5 @@ function getUrlVars() {
   } else {
     return '?'+ urlArray[1]
   }
-  console.log(window.location.href.split('?'));
+  // console.log(window.location.href.split('?'));
 }
