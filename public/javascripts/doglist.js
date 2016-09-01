@@ -78,7 +78,7 @@ function loadDog(dog) {
   li.append(more)
 
   //GETS LOADS INTO UL CLASS DOGS
-  $('.dogs').prepend(li)
+  $('.dogs').append(li)
 }
 
 function dogFeature(text, className) {
