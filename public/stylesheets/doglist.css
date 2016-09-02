@@ -16,7 +16,7 @@ li.dogListItem{
   background-color: #D8D8D8;
   list-style: none;
   margin:20px;
-  width:75%;
+  /*width:75%;*/
   overflow: hidden;
   border-radius: 20px;
 }
