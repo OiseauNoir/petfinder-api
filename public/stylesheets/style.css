@@ -178,7 +178,41 @@ input {
   visibility: hidden;
 }
 
+input.quizbtn {
+  visibility: visible;
+}
+
+.quizbtn {
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+
 .btn p {
   font-size: 24px;
   font-family: 'BioRhyme';
+ }
+
+ .last {
+   width:249px;
+ }
+
+ .lq {
+   padding-right: 120px;
+ }
+
+ #quiztitle {
+   text-align: center;
+   padding-bottom: 60px;
+ }
+
+ .quizquestion {
+   margin-left: 50px;
+   padding-top: 80px;
+ }
+
+ .quizquestion1 {
+   margin-left: 50px;
  }
