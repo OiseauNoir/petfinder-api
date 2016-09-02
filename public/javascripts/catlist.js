@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   loadCats();
+  loadCats();
 });
 
 function loadCats() {
@@ -17,41 +17,39 @@ function cats(data) {
   var breeds = data.petfinder.breeds.breed;
   // console.log(breeds);
 
-  breeds.forEach(function (breed) {
+  breeds.forEach(function(breed) {
     // console.log(breed);
     loadCat(breed);
   })
 
+  function loadCat(breed) {
+    // console.log(breed);
+    var li = $('<li />')
+    li.addClass('catBreed')
 
+    //FOR NAME OF THE ANIMAL
+    var name = $('<h1 />')
+    name.append('Name')
 
-function loadCat(breed) {
-  // console.log(breed);
-  var li = $('<li />')
-  li.addClass('catBreed')
+    //heart
+    var heart = $('<a><h2>&hearts;</h2></a>')
+      // console.log(heart);
+    heart.addClass('heart')
 
-  //FOR NAME OF THE ANIMAL
-  var name = $('<h1 />')
-  name.append('Name')
+    //READ MORE
+    var more = $('<a><h3>Read More</h3></a>')
+    more.addClass('readMore')
 
-  //heart
-   var heart = $('<a><h2>&hearts;</h2></a>')
-   // console.log(heart);
-   heart.addClass('heart')
+    var div = $('<div />')
+    div.addClass('breedName')
 
-  //READ MORE
-  var more = $('<a><h3>Read More</h3></a>')
-  more.addClass('readMore')
+    div.append('Breed: ' + breed.$t)
 
-  var div = $('<div />')
-  div.addClass('breedName')
+    li.append(heart)
+    li.append(name)
+    li.append(div)
+    li.append(more)
 
-  div.append('Breed: ' + breed.$t)
-
-  li.append(heart)
-  li.append(name)
-  li.append(div)
-  li.append(more)
-
-  $('.cats').append(li)
-}
+    $('.cats').append(li)
+  }
 }

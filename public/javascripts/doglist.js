@@ -6,27 +6,21 @@ $(document).ready(function() {
 function loadDogs() {
   var filter = getUrlVars()
   $.ajax({
-      url:'/api/dogs' + filter,
+      url: '/api/dogs' + filter,
       method: 'GET'
     })
     .done(function(dogList) {
       // console.log(data);
-        if (dogList.length === 0) {
-          alert ('Sorry, no dogs in our database match your criteria.  Please try again with different inputs!')
-          window.location.assign('/quiz')
-        } else {
-          for (var i = 0; i <dogList.length; i++) {
-            loadDog(dogList[i])
+      if (dogList.length === 0) {
+        alert('Sorry, no dogs in our database match your criteria.  Please try again with different inputs!')
+        window.location.assign('/quiz')
+      } else {
+        for (var i = 0; i < dogList.length; i++) {
+          loadDog(dogList[i])
         }
       }
     })
-  }
-
-
-
-
-
-
+}
 //LOAD  DOG inside this ul
 function loadDog(dog) {
   // console.log(dog);
@@ -41,11 +35,9 @@ function loadDog(dog) {
   name.append('Name')
 
   //heart
-   var heart = $('<a><h2>&hearts;</h2></a>')
-   // console.log(heart);
-   heart.addClass('heart')
-
-
+  var heart = $('<a><h2>&hearts;</h2></a>')
+    // console.log(heart);
+  heart.addClass('heart')
 
 
   //For the description
@@ -54,12 +46,12 @@ function loadDog(dog) {
   about.append('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')
 
   var kidFriendlyText = dog.kidFriendly ? 'Kid Friendly' : 'NOT KID FRIENDLY'
-  //creates wrapping divs
+    //creates wrapping divs
   var div = $('<div />')
   div.addClass('features')
 
   //LOADS THE KEY VALUES OF THE DOGS
-  div.append(dogFeature('Breed: ' +dog.breed, 'breed'))
+  div.append(dogFeature('Breed: ' + dog.breed, 'breed'))
   div.append(dogFeature(kidFriendlyText, 'kidFriendly'))
   div.append(dogFeature('Maintenance: ' + dog.maintenance, 'maintenance'))
   div.append(dogFeature('Noise Level: ' + dog.noiseLevel, 'noiseLevel'))
@@ -91,10 +83,10 @@ function dogFeature(text, className) {
 
 function getUrlVars() {
   urlArray = window.location.href.split('?')
-  if (urlArray.length===1) {
-      return ''
+  if (urlArray.length === 1) {
+    return ''
   } else {
-    return '?'+ urlArray[1]
+    return '?' + urlArray[1]
   }
   console.log(window.location.href.split('?'));
 }
