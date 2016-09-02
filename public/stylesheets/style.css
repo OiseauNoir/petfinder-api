@@ -1,7 +1,6 @@
 a:hover {
   text-decoration: none;
 }
-
 .navbar {
   font-family: 'Baloo Da', cursive;
   color: #ACABAB;
@@ -10,28 +9,23 @@ a:hover {
   margin-bottom: 50px;
   padding-left: 180px;
 }
-
 .navbar-brand {
   padding-right: 200px;
   color: #ACABAB;
   font-size: 40px;
 }
-
 #spots {
   color: black;
 }
-
 li a {
   font-family: 'BioRhyme', serif;
   font-size: 16px;
   color: #ACABAB
 }
-
 .col-md-6 {
   font-family: 'BioRhyme', serif;
   font-size: 30px;
 }
-
 .grey-box {
   border-radius: 20px;
   background: #4C4945;
@@ -43,12 +37,10 @@ li a {
   margin-bottom: 20px;
   height: 300px;
 }
-
 .grey-box h2 {
   font-family: 'Baloo Da';
-  color:white;
+  color: white;
 }
-
 .grey-box p {
   font-family: 'BioRhyme';
   font-size: 16px;
@@ -56,29 +48,25 @@ li a {
   text-align: left;
   padding-left: 10px;
 }
-
 #quiz {
   height: 150px;
   text-align: center;
 }
-
 .small-grey-box {
-    border-radius: 20px;
-    background: #4C4945;
-    text-align: left;
-    width: 350px;
-    padding-top: 5px;
-    height: 150px;
-    margin-left: 200px;
+  border-radius: 20px;
+  background: #4C4945;
+  text-align: left;
+  width: 350px;
+  padding-top: 5px;
+  height: 150px;
+  margin-left: 200px;
 }
-
 .small-grey-box h2 {
   font-family: 'Baloo Da';
-  color:white;
+  color: white;
   padding: 5px;
   padding-left: 20px;
 }
-
 .small-grey-box p {
   font-family: 'BioRhyme';
   font-size: 16px;
@@ -86,7 +74,6 @@ li a {
   text-align: left;
   padding-left: 20px;
 }
-
 .green-box {
   background: #4ca354;
   text-align: center;
@@ -95,18 +82,15 @@ li a {
   height: 120px;
   margin-bottom: 50px;
 }
-
 .green-box p {
   font-size: 16px;
   color: white;
   padding-top: 15px
 }
-
 .green-box .pic {
   width: 150px;
   height: auto;
 }
-
 .small-green-box {
   background: #95CC45;
   height: 150px;
@@ -114,25 +98,19 @@ li a {
   border-radius: 20px;
   width: 130px;
 }
-
 .col-md-2 p {
   font-family: 'Biorhyme';
   font-size: 16px;
   text-align: center;
   color: white;
 }
-
 .smallpic {
   width: 130px;
   padding-top: 10px;
-
 }
-
 .smallpic2 {
   width: 130px;
-
 }
-
 .mission {
   font-family: 'Baloo Da';
   text-align: center;
@@ -140,24 +118,19 @@ li a {
   margin: auto;
   padding-top: 30px;
 }
-
 #right {
   margin-left: -20px;
 }
-
 .button-border {
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 20px;
   height: 300px;
-
 }
-
 #quizpic {
   padding-bottom: 20px;
 }
-
 .btn {
-  background-color:transparent;
+  background-color: transparent;
   color: black;
   border-color: transparent;
   white-space: pre-line;
@@ -165,54 +138,41 @@ li a {
   height: 300px;
   width: 250px;
 }
-
 .btn:hover {
   background-color: transparent;
   color: black;
 }
-
-
-
-
 input {
   visibility: hidden;
 }
-
 input.quizbtn {
   visibility: visible;
 }
-
 .quizbtn {
   border-radius: 20px;
   padding: 20px 30px;
   margin-left: 80px;
   margin-bottom: 50px;
 }
-
-
 .btn p {
   font-size: 24px;
   font-family: 'BioRhyme';
- }
-
- .last {
-   width:249px;
- }
-
- .lq {
-   padding-right: 120px;
- }
-
- #quiztitle {
-   text-align: center;
-   padding-bottom: 60px;
- }
-
- .quizquestion {
-   margin-left: 50px;
-   padding-top: 80px;
- }
-
- .quizquestion1 {
-   margin-left: 50px;
- }
+}
+.last-question {
+  width: 249px;
+  margin-bottom: 10px;
+}
+.lq {
+  padding-right: 120px;
+}
+#quiztitle {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.quizquestion {
+  margin-left: 50px;
+  padding-top: 80px;
+}
+.quizquestion1 {
+  margin-left: 50px;
+}
