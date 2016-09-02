@@ -1,13 +1,13 @@
 <% include partials/header %>
 
-    <h1>QUIZ</h1>
+    <h1 id="quiztitle">DOG BREED QUIZ</h1>
 
       <form class="quiz" action="/doglist" method="get">
-        <h2>Do you have any kids?</h2>
+        <h2 class="quizquestion1">Do you have any kids?</h2>
           <div class="container">
             <div class="row">
         <div class="btn-group" data-toggle="buttons">
-          <div class="col-md-4">
+          <div class="col-md-4 lq">
             <div class="button-border">
           <label class="btn btn-primary">
             <label for="baby"><img src="/img/crawler.png" alt="" /></label>
@@ -16,7 +16,7 @@
           </label>
         </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 lq">
           <div class="button-border">
           <label class="btn btn-primary">
             <label for="walker"><img src="/img/walker.png" alt="" /></label>
@@ -25,7 +25,7 @@
           </label>
         </div>
       </div>
-        <div class="col-md-4">
+        <div class="col-md-4 lq">
           <div class="button-border">
           <label class="btn btn-primary">
             <label for="nokid"><img src="" alt="" /></label>
@@ -41,11 +41,11 @@
 
 
 
-        <h2>What are you willing to do for your dog?</h2>
+        <h2 class="quizquestion">What are you willing to do for your dog?</h2>
         <div class="container">
           <div class="row">
         <div class="btn-group" data-toggle="buttons">
-          <div class="col-md-4">
+          <div class="col-md-4 lq">
             <div class="button-border">
           <label class="btn btn-primary">
             <label for="run"><img src="img/run marathons.png"/></label>
@@ -54,7 +54,7 @@
           </label>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 lq">
         <div class="button-border">
           <label class="btn btn-primary">
             <label for="sweeper"><img src="/img/sweeper.png" /></label>
@@ -63,7 +63,7 @@
           </label>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 lq">
         <div class="button-border">
           <label class="btn btn-primary">
             <label for="less"><img src="/img/lesscarethebetter.png" /></link>
@@ -78,11 +78,11 @@
 
 
 
-        <h2>How much barking can you handle?</h2>
+        <h2 class="quizquestion">How much barking can you handle?</h2>
         <div class="container">
           <div class="row">
         <div class="btn-group" data-toggle="buttons">
-          <div class="col-md-4">
+          <div class="col-md-4 lq">
             <div class="button-border">
           <label class="btn btn-primary">
             <label for="guitar"><img src="/img/guitar icon.png" /></link>
@@ -91,7 +91,7 @@
           </label>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 lq">
         <div class="button-border">
           <label class="btn btn-primary">
           <label for="speech"><img src="/img/speech bubble icon.png" /></label>
@@ -100,7 +100,7 @@
           </label>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 lq">
         <div class="button-border">
           <label class="btn btn-primary">
             <label for="nonoise"><img src="/img/no noise.png" /></label>
@@ -115,11 +115,11 @@
 
 
 
-        <h2>What size are we talking?</h2>
+        <h2 class="quizquestion">What size are we talking?</h2>
         <div class="container">
           <div class="row">
         <div class="btn-group" data-toggle="buttons">
-          <div class="col-md-4">
+          <div class="col-md-4 lq">
             <div class="button-border">
           <label class="btn btn-primary">
             <label for="small"><img src="/img/Small.png" /></label>
@@ -128,7 +128,7 @@
           </label>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 lq">
         <div class="button-border">
           <label class="btn btn-primary">
             <label for="medium"><img src="/img/Size.png" /></label>
@@ -137,7 +137,7 @@
           </label>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 lq">
         <div class="button-border">
           <label class="btn btn-primary">
             <label for="large"><img src="/img/Large.png" /></label>
@@ -151,12 +151,12 @@
 </div>
 
 
-        <h2>My dog will ... ?</h2>
+        <h2 class="quizquestion">My dog will ... ?</h2>
         <div class="container">
           <div class="row">
         <div class="btn-group" data-toggle="buttons">
           <div class="col-md-4">
-            <div class="button-border">
+            <div class="button-border last">
           <label class="btn btn-primary">
             <label for=""><img src="" /></label>
             <p>Be an expert tennis ball retreiver</p>
@@ -165,7 +165,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="button-border">
+        <div class="button-border last">
           <label class="btn btn-primary">
             <label for=""><img src="" /></label>
             <p>Be a master at performing tricks for treats</p>
@@ -174,7 +174,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="button-border">
+        <div class="button-border last">
           <label class="btn btn-primary">
             <label for=""><img src="" /></label>
             <p>Be off doing their own thing</p>
@@ -185,7 +185,7 @@
 
 
       <div class="col-md-4">
-        <div class="button-border">
+        <div class="button-border last">
           <label class="btn btn-primary">
             <label for=""><img src="" /></label>
             <p>Be my home security system</p>
@@ -194,7 +194,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="button-border">
+        <div class="button-border last">
           <label class="btn btn-primary">
             <label for=""><img src="" /></label>
             <p>Act as my nightly entertainment</p>
@@ -203,7 +203,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="button-border">
+        <div class="button-border last">
           <label class="btn btn-primary">
             <label for=""><img src-"" /></label>
             <p>Keep my lap warm on the couch</p>
@@ -215,7 +215,7 @@
   </div>
 </div>
         <br>
-        <input type="submit" value="Submit" id="submit-btn">
+        <input class="quizbtn" type="submit" value="Submit" id="submit-btn">
     </form>
 
 
