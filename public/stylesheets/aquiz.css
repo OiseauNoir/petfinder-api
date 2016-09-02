@@ -1,3 +1,21 @@
 body{
   text-align: center;
 }
+.animals{
+  padding-top: 40px;
+}
+.dogs {
+  display: inline-block;
+  margin: 20px;
+  padding: 0px 60px 20px 0px;
+}
+.cats{
+  display: inline-block;
+  padding: 0px 40px 20px 0px;
+}
+.dogs-para{
+  padding-top: 20px;
+}
+.cats-para{
+  padding-top: 20px;
+}

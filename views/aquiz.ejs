@@ -1,17 +1,33 @@
 <% include partials/header %>
 
-  <h1>Quiz</h1>
+    <h1>Quiz</h1>
 
-<form method="get" action="" class="quiz">
-  <h2>Do you like Dogs or Cats?</h2>
-  <a href="#">
-  <input type="radio" name="Cat or Dog"><img src="/img/dogaquiz.png" alt="Dog" /> Man's best friend Dog!
-  </a>
-  <a href="#">
-  <input type="radio" name="Cat or Dog"><img src="/img/cataquiz.png" alt="Cat" /> Independent Cat!
-  </a>
+    <form method="get" action="" class="quiz">
+        <h2>Do you like Dogs or Cats?</h2>
 
-</form>
+        <div class="animals">
+          <div class="dogs">
 
-<!-- <script src="/javascripts/quiz.js"></script> -->
-<link rel="stylesheet" href="/stylesheets/aquiz.css">
+            <a href="/doglist">
+                <input type="radio" name="Cat or Dog"><img src="/img/dogaquiz.png" alt="Dog" />
+                <p class="dogs-para" >
+                  Man's best friend!
+                </p>
+            </a>
+          </div>
+
+          <div class="cats">
+            <a href="/catlist">
+                <input type="radio" name="Cat or Dog"><img src="/img/cataquiz.png" alt="Cat" />
+                <p class="cats-para">
+                  Independent Cats!
+                </p>
+            </a>
+
+          </div>
+        </div>
+
+    </form>
+
+    <!-- <script src="/javascripts/quiz.js"></script> -->
+    <link rel="stylesheet" href="/stylesheets/aquiz.css">
