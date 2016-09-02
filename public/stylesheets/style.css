@@ -157,6 +157,7 @@ input.quizbtn {
 .btn p {
   font-size: 24px;
   font-family: 'BioRhyme';
+<<<<<<< HEAD
 }
 .last-question {
   width: 249px;
@@ -176,3 +177,29 @@ input.quizbtn {
 .quizquestion1 {
   margin-left: 50px;
 }
+=======
+ }
+
+ .last-question {
+   width:249px;
+   margin-bottom: 20px;
+ }
+
+ .lq {
+   padding-right: 120px;
+ }
+
+ #quiztitle {
+   text-align: center;
+   padding-bottom: 60px;
+ }
+
+ .quizquestion {
+   margin-left: 50px;
+   padding-top: 80px;
+ }
+
+ .quizquestion1 {
+   margin-left: 50px;
+ }
+>>>>>>> style
