@@ -195,8 +195,9 @@ input.quizbtn {
   font-family: 'BioRhyme';
  }
 
- .last {
+ .last-question {
    width:249px;
+   margin-bottom: 10px;
  }
 
  .lq {
